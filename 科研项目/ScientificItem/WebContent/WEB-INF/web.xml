@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>ScientificItem</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+   <servlet>
+    <description></description>
+    <display-name>LoginServlet</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.ScientificItem.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UserInfoServlet</display-name>
+    <servlet-name>UserInfoServlet</servlet-name>
+    <servlet-class>com.ScientificItem.servlet.UserInfoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserInfoServlet</servlet-name>
+    <url-pattern>/UserInfoServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>UpdatePasswordServlet</display-name>
+    <servlet-name>UpdatePasswordServlet</servlet-name>
+    <servlet-class>com.ScientificItem.servlet.UpdatePasswordServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdatePasswordServlet</servlet-name>
+    <url-pattern>/UpdatePasswordServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>UpdateUserServlet</display-name>
+    <servlet-name>UpdateUserServlet</servlet-name>
+    <servlet-class>com.ScientificItem.servlet.UpdateUserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateUserServlet</servlet-name>
+    <url-pattern>/UpdateUserServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>ItemApplicationServlet</display-name>
+    <servlet-name>ItemApplicationServlet</servlet-name>
+    <servlet-class>com.ScientificItem.servlet.ItemApplicationServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ItemApplicationServlet</servlet-name>
+    <url-pattern>/ItemApplicationServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>ItemShowServlet</display-name>
+    <servlet-name>ItemShowServlet</servlet-name>
+    <servlet-class>com.ScientificItem.servlet.ItemShowServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ItemShowServlet</servlet-name>
+    <url-pattern>/ItemShowServlet</url-pattern>
+  </servlet-mapping>
+ 
+  
+   <servlet>
+    <description></description>
+    <display-name>ShowContentServlet</display-name>
+    <servlet-name>ShowContentServlet</servlet-name>
+    <servlet-class>com.ScientificItem.servlet.ShowContentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ShowContentServlet</servlet-name>
+    <url-pattern>/ShowContentServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>DeleteItemServlet</display-name>
+    <servlet-name>DeleteItemServlet</servlet-name>
+    <servlet-class>com.ScientificItem.servlet.DeleteItemServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteItemServlet</servlet-name>
+    <url-pattern>/DeleteItemServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>UpdateItemUIServlet</display-name>
+    <servlet-name>UpdateItemUIServlet</servlet-name>
+    <servlet-class>com.ScientificItem.servlet.UpdateItemUIServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateItemUIServlet</servlet-name>
+    <url-pattern>/UpdateItemUIServlet</url-pattern>
+  </servlet-mapping>
+ 
+   <servlet>
+    <description></description>
+    <display-name>UpdateItemServlet</display-name>
+    <servlet-name>UpdateItemServlet</servlet-name>
+    <servlet-class>com.ScientificItem.servlet.UpdateItemServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateItemServlet</servlet-name>
+    <url-pattern>/UpdateItemServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>DepartItemShowServlet</display-name>
+    <servlet-name>DepartItemShowServlet</servlet-name>
+    <servlet-class>com.ScientificItem.servlet.DepartItemShowServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DepartItemShowServlet</servlet-name>
+    <url-pattern>/DepartItemShowServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>DepartItemCheckServlet</display-name>
+    <servlet-name>DepartItemCheckServlet</servlet-name>
+    <servlet-class>com.ScientificItem.servlet.DepartItemCheckServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DepartItemCheckServlet</servlet-name>
+    <url-pattern>/DepartItemCheckServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>ItemNoCheckServlet</display-name>
+    <servlet-name>ItemNoCheckServlet</servlet-name>
+    <servlet-class>com.ScientificItem.servlet.ItemNoCheckServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ItemNoCheckServlet</servlet-name>
+    <url-pattern>/ItemNoCheckServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>ChargeDepartItemListServlet</display-name>
+    <servlet-name>ChargeDepartItemListServlet</servlet-name>
+    <servlet-class>com.ScientificItem.servlet.ChargeDepartItemListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ChargeDepartItemListServlet</servlet-name>
+    <url-pattern>/ChargeDepartItemListServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>ChargeItemCheckServlet</display-name>
+    <servlet-name>ChargeItemCheckServlet</servlet-name>
+    <servlet-class>com.ScientificItem.servlet.ChargeItemCheckServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ChargeItemCheckServlet</servlet-name>
+    <url-pattern>/ChargeItemCheckServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>AdminServlet</display-name>
+    <servlet-name>AdminServlet</servlet-name>
+    <servlet-class>com.ScientificItem.servlet.AdminServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminServlet</servlet-name>
+    <url-pattern>/AdminServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>UserManagerServlet</display-name>
+    <servlet-name>UserManagerServlet</servlet-name>
+    <servlet-class>com.ScientificItem.servlet.UserManagerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserManagerServlet</servlet-name>
+    <url-pattern>/UserManagerServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>DeleteUserServlet</display-name>
+    <servlet-name>DeleteUserServlet</servlet-name>
+    <servlet-class>com.ScientificItem.servlet.DeleteUserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteUserServlet</servlet-name>
+    <url-pattern>/DeleteUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AdminUpdateUserServlet</display-name>
+    <servlet-name>AdminUpdateUserServlet</servlet-name>
+    <servlet-class>com.ScientificItem.servlet.AdminUpdateUserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminUpdateUserServlet</servlet-name>
+    <url-pattern>/AdminUpdateUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AdminUpdateUserUIServlet</display-name>
+    <servlet-name>AdminUpdateUserUIServlet</servlet-name>
+    <servlet-class>com.ScientificItem.servlet.AdminUpdateUserUIServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminUpdateUserUIServlet</servlet-name>
+    <url-pattern>/AdminUpdateUserUIServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <description></description>
+    <display-name>AddUserUIServlet</display-name>
+    <servlet-name>AddUserUIServlet</servlet-name>
+    <servlet-class>com.ScientificItem.servlet.AddUserUIServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddUserUIServlet</servlet-name>
+    <url-pattern>/AddUserUIServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>AddUserServlet</display-name>
+    <servlet-name>AddUserServlet</servlet-name>
+    <servlet-class>com.ScientificItem.servlet.AddUserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddUserServlet</servlet-name>
+    <url-pattern>/AddUserServlet</url-pattern>
+  </servlet-mapping>
+  <filter>
+    <display-name>UrlFilter</display-name>
+    <filter-name>UrlFilter</filter-name>
+    <filter-class>com.ScientificItem.filter.UrlFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>UrlFilter</filter-name>
+    <url-pattern>/UserInfoServlet</url-pattern>
+    <url-pattern>/UpdatePasswordServlet</url-pattern>
+    <url-pattern>/ItemApplicationServlet</url-pattern>
+    <url-pattern>/ItemApplicationServlet</url-pattern>
+     <url-pattern>/ItemShowServlet</url-pattern>
+     <url-pattern>/ShowContentServlet</url-pattern>
+     <url-pattern>/DeleteItemServlet</url-pattern>
+     <url-pattern>/UpdateItemUIServlet</url-pattern>
+     <url-pattern>/UpdateItemServlet</url-pattern>
+     <url-pattern>/DepartItemShowServlet</url-pattern>
+     <url-pattern>/DepartItemCheckServlet</url-pattern>
+     <url-pattern>/ItemNoCheckServlet</url-pattern>
+     <url-pattern>/ChargeDepartItemListServlet</url-pattern>
+     <url-pattern>/ChargeItemCheckServlet</url-pattern>
+     <url-pattern>/AdminServlet</url-pattern>
+      <url-pattern>/UserManagerServlet</url-pattern>
+     <url-pattern>/pages/user_item/itemapplication2.jsp</url-pattern>
+  </filter-mapping>
+  
+  
+  
+</web-app>
+
+
+
+
